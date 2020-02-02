@@ -45,6 +45,7 @@ Setting up your development environment on your local machine :
 ```bash
 $ git clone https://github.com/guillaumebriday/laravel-blog.git
 $ cd laravel-blog
+$ sudo chmod u+x ./build.sh
 $ ./build.sh
 ```
 

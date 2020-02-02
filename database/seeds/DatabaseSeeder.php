@@ -25,10 +25,10 @@ class DatabaseSeeder extends Seeder
 
         // Users
         $user = User::firstOrCreate(
-            ['email' => 'admin@admin.com'],
+            ['email' => 'user.test.12@mail.com'],
             [
-                'name' => 'admin',
-                'password' => Hash::make('admin'),
+                'name' => 'User Test',
+                'password' => Hash::make('123456'),
                 'email_verified_at' => now()
             ]
         );
